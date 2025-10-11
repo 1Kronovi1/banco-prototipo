@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex flex-col items-center justify-center scrollbar-custom overflow-hidden w-screen h-screen">
+    <div class="overflow-scroll overflow-x-hidden relative w-[430px]">
+        <section class="font-bold h-60 pr-5 pl-5 pt-5 pb-7 text-white bg-[var(--primary)] flex flex-col justify-between rounded-b-[40px] mb-10">
+            <div class="flex flex-row items-center justify-between">
+                <div class="flex flex-row items-center gap-3">
+                    <img src="assets/profile-pic.svg" alt="">
+                    <p>Bruno Oliveira</p>
+                </div>
+                <div class="flex flex-row items-center gap-4">
+                    <img class="cursor-pointer" src="assets/info-white.png" alt="">
+                    <img class="cursor-pointer" src="assets/gear.png" alt="">
+                </div>
+            </div>
+            <div class="flex flex-row justify-between">
+                <div>
+                    <p class="text-lg">Saldo em conta</p>
+                    <p class="text-lg">R$ 2.368,90</p>
+                </div>
+                <a class="underline" href="#">Ver Extrato</a>
+            </div>
+        </section>
+        <section class="font-bold">
+            <div class="text-sm scrollbar-custom overflow-x-auto whitespace-nowrap overflow-y-hidden pl-6 pr-6 pb-4 flex flex-row items-start gap-3">
+                <div class="flex-col items-center">
+                    <button class="cursor-pointer flex items-center justify-center bg-[var(--second-clara)] w-20 h-20 rounded-full"><img src="assets/pix.png" alt=""></button>
+                    <p class="cursor-pointer mt-1 w-20 text-center">Área Pix</p>
+                </div>
+                <div class="flex-col items-center">
+                    <button class="cursor-pointer flex items-center justify-center bg-[var(--second-clara)] w-20 h-20 rounded-full"><img src="assets/bar-code.png" alt=""></button>
+                    <p class="cursor-pointer mt-1 w-20 text-center">Pagar</p>
+                </div>
+                <div class=" flex-col items-center">
+                    <button class="cursor-pointer flex items-center justify-center bg-[var(--second-clara)] w-20 h-20 rounded-full"><img src="assets/emprestimo.svg" alt=""></button>
+                    <p class="cursor-pointer mt-1 w-20 text-center">Empréstimo</p>
+                </div>
+                <div class=" flex-col items-center">
+                    <button class="cursor-pointer flex items-center justify-center bg-[var(--second-clara)] w-20 h-20 rounded-full"><img src="assets/phone.svg" alt=""></button>
+                    <p class="cursor-pointer mt-1 w-20 text-center">Recarga</p>
+                </div>
+                <div class=" flex-col items-center">
+                    <button class="cursor-pointer flex items-center justify-center bg-[var(--second-clara)] w-20 h-20 rounded-full"><img src="assets/caixinha.png" alt=""></button>
+                    <p class="cursor-pointer mt-1 w-20 text-center">Caixinha</p>
+                </div>
+            </div>
+            <div class="mt-7 w-full flex flex-row items-center justify-center pr-6 pl-6">
+                <div class="cursor-pointer flex flex-row gap-5 items-start bg-[var(--second-clara)] p-4 rounded-2xl w-full">
+                    <img src="assets/credit-cards.png" alt="">
+                    <p class="cursor-pointer">Meus cartões</p>
+                </div>
+            </div>
+            <div class="mt-7 gap-5 overflow-x-auto overflow-y-hidden pl-6 pr-6 flex flex-row items-start">
+                <div class="w-60 bg-[var(--second-clara)] p-4 rounded-2xl">
+                    <p><span>Lorem ipsum</span> dolor sit, amet consectetur adipisicing elit. Dolor placeat, itaque.</p>
+                </div>
+                <div class="w-60 bg-[var(--second-clara)] p-4 rounded-2xl">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto esse pariatur.</p>
+                    <div class="flex flex-row mt-4 gap-2">
+                        <img src="assets/credit-card.svg" alt="">
+                        <a class="text-[var(--primary)] underline" href="#">Lorem ipsum!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 w-full pr-6 pl-6 flex flex-col gap-3">
+                <div class="flex flex-row items-center justify-between">
+                    <h1 class="font-bold text-xl">Cartão de crédito</h1>
+                    <img class="cursor-pointer" src="assets/arrow.png" alt="">
+                </div>
+                <p class="font-bold text-[var(--second)]">Sua fatura atual</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
